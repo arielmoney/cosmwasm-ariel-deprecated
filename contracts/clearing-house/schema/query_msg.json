@@ -1,0 +1,312 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "QueryMsg",
+  "anyOf": [
+    {
+      "type": "object",
+      "required": [
+        "get_user"
+      ],
+      "properties": {
+        "get_user": {
+          "type": "object",
+          "required": [
+            "user_address"
+          ],
+          "properties": {
+            "user_address": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_user_market_position"
+      ],
+      "properties": {
+        "get_user_market_position": {
+          "type": "object",
+          "required": [
+            "index",
+            "user_address"
+          ],
+          "properties": {
+            "index": {
+              "type": "integer",
+              "format": "uint64",
+              "minimum": 0.0
+            },
+            "user_address": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_user_positions"
+      ],
+      "properties": {
+        "get_user_positions": {
+          "type": "object",
+          "required": [
+            "user_address"
+          ],
+          "properties": {
+            "limit": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "format": "uint32",
+              "minimum": 0.0
+            },
+            "start_after": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "user_address": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_admin"
+      ],
+      "properties": {
+        "get_admin": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "is_exchange_paused"
+      ],
+      "properties": {
+        "is_exchange_paused": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "is_funding_paused"
+      ],
+      "properties": {
+        "is_funding_paused": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "admin_controls_prices"
+      ],
+      "properties": {
+        "admin_controls_prices": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_vaults"
+      ],
+      "properties": {
+        "get_vaults": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_margin_ratio"
+      ],
+      "properties": {
+        "get_margin_ratio": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_oracle"
+      ],
+      "properties": {
+        "get_oracle": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_market_length"
+      ],
+      "properties": {
+        "get_market_length": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_oracle_guard_rails"
+      ],
+      "properties": {
+        "get_oracle_guard_rails": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_order_state"
+      ],
+      "properties": {
+        "get_order_state": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_partial_liquidation_close_percentage"
+      ],
+      "properties": {
+        "get_partial_liquidation_close_percentage": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_partial_liquidation_penalty_percentage"
+      ],
+      "properties": {
+        "get_partial_liquidation_penalty_percentage": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_full_liquidation_penalty_percentage"
+      ],
+      "properties": {
+        "get_full_liquidation_penalty_percentage": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_partial_liquidator_share_percentage"
+      ],
+      "properties": {
+        "get_partial_liquidator_share_percentage": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_full_liquidator_share_percentage"
+      ],
+      "properties": {
+        "get_full_liquidator_share_percentage": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_max_deposit_limit"
+      ],
+      "properties": {
+        "get_max_deposit_limit": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_fee_structure"
+      ],
+      "properties": {
+        "get_fee_structure": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_market_info"
+      ],
+      "properties": {
+        "get_market_info": {
+          "type": "object",
+          "required": [
+            "market_index"
+          ],
+          "properties": {
+            "market_index": {
+              "type": "integer",
+              "format": "uint64",
+              "minimum": 0.0
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  ]
+}

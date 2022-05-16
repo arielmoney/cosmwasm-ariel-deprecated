@@ -1,0 +1,1 @@
+88649bc525664763b904284f5ebb3280dc2b3a09a28232ee3ef7279aca92a816  ./target/wasm32-unknown-unknown/release/collateral_vault.wasm

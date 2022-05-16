@@ -1,0 +1,1 @@
+094f1047f55591e8b4ea5d18cb9fb40606950909be22ea8f7fb7112fad6dca89  ./target/wasm32-unknown-unknown/release/insurance_vault.wasm

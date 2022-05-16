@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PriceResponse",
+  "type": "object",
+  "required": [
+    "asset",
+    "last_updated",
+    "price"
+  ],
+  "properties": {
+    "asset": {
+      "type": "string"
+    },
+    "last_updated": {
+      "type": "integer",
+      "format": "uint64",
+      "minimum": 0.0
+    },
+    "price": {
+      "type": "integer",
+      "format": "uint128",
+      "minimum": 0.0
+    }
+  }
+}

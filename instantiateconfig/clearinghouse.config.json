@@ -1,0 +1,47 @@
+{
+    "_global": {
+        "_base": {
+            "store": {
+                "fee": {
+                    "gasLimit": 8000000,
+                    "amount": {
+                        "uluna": 1000000
+                    }
+                }
+            },
+            "instantiation": {
+                "fee": {
+                    "gasLimit": 2000000,
+                    "amount": {
+                        "uluna": 1000000
+                    }
+                },
+                "instantiateMsg": {
+                    "collateral_vault": "terra1r0spch82l7dlj9ghpc0ce36jk37vjrke40s0xs",
+                    "insurance_vault": "terra1qm9ganh58cfk3qtuleev27dz5rfge4ztv3upe0",
+                    "history_contract": "terra1crkew53rrq2ak5r8gpvjvsvna93zjn9na2s20a",
+                    "admin_controls_prices": true,
+                    "oracle": "terra1fufvw70xn0rjykcccrq3lnxdc3acs493trck0n"
+                }
+            }
+        }
+    },
+    "mainnet": {
+        "_connection": {
+            "chainID": "columbus-5",
+            "URL": "https://lcd.terra.dev"
+        }
+    },
+    "testnet": {
+        "_connection": {
+            "chainID": "bombay-12",
+            "URL": "https://bombay-lcd.terra.dev"
+        }
+    },
+    "localterra": {
+        "_connection": {
+            "chainID": "localterra",
+            "URL": "http://localhost:3060"
+        }
+    }
+}

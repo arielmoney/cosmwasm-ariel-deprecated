@@ -1,0 +1,1 @@
+776e419b2fb7285a21aae37f4cd4a680c6117774cac8c2bd58a8900876529b50  ./target/wasm32-unknown-unknown/release/clearing_house.wasm

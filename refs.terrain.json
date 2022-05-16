@@ -1,0 +1,60 @@
+{
+    "localterra": {
+        "clearing-house": {
+            "codeId": "52",
+            "contractAddresses": {
+                "default": "terra10wpmea8h37zrjr4cjy95ay6sf0wk7gty3t5usd"
+            }
+        },
+        "collateral-vault": {
+            "codeId": "53",
+            "contractAddresses": {
+                "default": "terra1u6at5nnpu8x064cgmjx5040ck4ylp750d5vv0z"
+            }
+        },
+        "insurance-vault": {
+            "codeId": "54",
+            "contractAddresses": {
+                "default": "terra18pc66nr8qw2vj4wkwgkguqwpaa8s5u5utg9chm"
+            }
+        },
+        "historical-store": {
+            "codeId": "1",
+            "contractAddresses": {
+                "default": "terra18vd8fpwxzck93qlwghaj6arh4p7c5n896xzem5"
+            }
+        }
+    },
+    "testnet": {
+        "clearing-house": {
+            "codeId": "70874",
+            "contractAddresses": {
+                "default": "terra1f3u2vxxk4v4u7tphsc4j4rk5clgm4nvvkyshra"
+            }
+        },
+        "collateral-vault": {
+            "codeId": "70795",
+            "contractAddresses": {
+                "default": "terra1s66zfz8vfpfuvldnp29vc3lzrru8pkm99n7gmn"
+            }
+        },
+        "insurance-vault": {
+            "codeId": "70796",
+            "contractAddresses": {
+                "default": "terra1nhdvlxuz8mkp2uhtxmp3hj3gufyxafurxv4hkc"
+            }
+        },
+        "historical-store": {
+            "codeId": "70797",
+            "contractAddresses": {
+                "default": "terra1xhd7lkfqv97htgfn6sdjl9wwqspz99sw6pjrd6"
+            }
+        },
+        "oracle": {
+            "codeId": "70870",
+            "contractAddresses": {
+                "default": "terra1zrxr09ghv427uvpd692zgha6v6sczy9xmsxezd"
+            }
+        }
+    }
+}

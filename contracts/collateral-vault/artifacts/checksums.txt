@@ -1,0 +1,1 @@
+12be0caafeaaae67639965e17dde9992f3c4f897f3cf7d3cedf20fbe3033a862  collateral_vault.wasm
